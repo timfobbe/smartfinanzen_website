@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #003366;
+    background-color: #002244;
     color: white;
     padding: 1.5em 0;
     text-align: center;
@@ -39,8 +39,32 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+#hero {
+    background-color: #004488;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3em;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #ff8800;
+}
+
 h2 {
-    color: #003366;
+    color: #002244;
     margin-top: 1.5em;
 }
 
@@ -61,23 +85,8 @@ h2 {
     margin-bottom: 1em;
 }
 
-.subscribe-button {
-    background-color: #003366;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    margin-top: 1em;
-    display: inline-block;
-}
-
-.subscribe-button:hover {
-    background-color: #0055cc;
-}
-
 footer {
-    background-color: #003366;
+    background-color: #002244;
     color: white;
     text-align: center;
     padding: 1em;
