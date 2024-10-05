@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #003366;
     color: white;
-    padding: 2em;
+    padding: 1.5em 0;
     text-align: center;
 }
 
@@ -19,8 +19,28 @@ h1 {
     font-size: 2.5em;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 h2 {
-    color: #4CAF50;
+    color: #003366;
     margin-top: 1.5em;
 }
 
@@ -28,30 +48,46 @@ h2 {
     padding: 2em;
     margin: 0 auto;
     max-width: 1200px;
+    text-align: center;
 }
 
 .video-container {
     display: flex;
-    gap: 1em;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    margin-bottom: 1em;
 }
 
 .subscribe-button {
-    background-color: #4CAF50;
+    background-color: #003366;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2em;
+    margin-top: 1em;
+    display: inline-block;
 }
 
 .subscribe-button:hover {
-    background-color: #45a049;
+    background-color: #0055cc;
 }
 
 footer {
-    background-color: #333;
+    background-color: #003366;
     color: white;
     text-align: center;
     padding: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
